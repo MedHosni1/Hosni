@@ -1,5 +1,5 @@
 title: "Mohamed Hosni"
-author: "Blog Author"
+author: "Mohamed Hosni"
 description: "ENSAM-Meknes, Moulay Ismail Universty"
 permalink: /:title/
 lang: "en"
@@ -17,7 +17,7 @@ minimal: false             # use a dark header
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {file: "index.html", title: "Home"}
-  - {file: "README.md", title : "About me"}
+  - {file: "README.md", title: "About me"}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
   - {title: Mail, icon: envelope, url: "mailto:hosni.mohamed1@gmail.com"}
