@@ -23,6 +23,8 @@ external:                  # shows a footer with social links - for available ic
   - {title: Mail, icon: envelope, url: "mailto:hosni.mohamed1@gmail.com"}
   - {title: Github, icon: github, url: "https://github.com/MedHosni1"}
   - {title: Subscribe, icon: rss, url: "/feed.xml"}
+ - {title: Subscribe,  icon: 'researchgate', link: 'https://www.researchgate.net/profile/profileName'}
+- {icon: 'google-scholar', link: 'https://scholar.google.com/citations?user=userID'}
 
 comments:
 #  disqus_shortname: ""    # see https://disqus.com/
