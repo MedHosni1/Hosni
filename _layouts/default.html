@@ -38,6 +38,13 @@
 
 {% if site.external %}
 <footer>
+  {% for item in site.data.settings.external %}
+  {% if item.icon == 'researchgate' or item.icon == 'google-scholar' %}
+    <a href="{{ item.link }}" class="menu-link" target="_blank"><i class="ai ai-{{ item.icon }}" aria-hidden="true"></i></a>
+  {% else %}
+    <a href="{{ item.link }}" class="menu-link" target="_blank"><i class="fa fa-{{ item.icon }}" aria-hidden="true"></i></a>
+  {% endif %}
+{% endfor %}
   <div>{{ site.description | default: site.title }}</div>
   {% include menu.html menu=site.external %}
 </footer>
